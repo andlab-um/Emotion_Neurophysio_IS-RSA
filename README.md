@@ -32,23 +32,17 @@
 * Unity_call_python: scripts for using Unity platform call python codes
 
 ```bash
-├── 0_format
-│   ├── convert2bids.ipynb          # BIDS conversion from raw data to BIDS
-│   └── mff2set.m                   # convert .mff file to .set file
-├── 1_behavior
-│   ├── a_behavior.ipynb            # rt/acc etc. for different tasks/conditions
-│   ├── b_trajectory.ipynb          # trajectory analysis
-│   └── traj_util.py
-├── 2_eeg
-│   ├── a_rest_preprocessing.m      # resting EEG preprocessing
-│   ├── b_rest_microstate.m         # microstate analysis
-│   ├── c_task_preprocessing.m      # task EEG preprocessing
-│   └── d_task_visualization.ipynb  # ERP/TFR/topomap/MVPA analysis
-├── assets
-│   ├── animacy.csv                 # animate/inanimate words(with chinese and corresponding english version)
-│   ├── association.csv             # mathing between words and images
-│   ├── GSN-HydroCel-129.sfp        # standard channel location, get from MNE
-│   └── Helvetica.ttf               # font for plotting
+├── Unity_call_python
+│   ├── PortEEG.py         # set the trigger to EEG & ECG
+│   ├── AddPortEEG.py      # load the PortEEG function 
+│   ├── UnityCallPython.cs # script for importing python script in unity
+│   └── inpoutx64.dll      # dll for parallel ports
+├── 1_Emotion_Rating.ipynb # visualization of the perceived emotion arousal rating score
+├── 2_ISC_EEG.ipynb        # intersubejct simialrity analysis of the EEG data
+├── 3_ISC_ECG.ipynb        # intersubejct simialrity analysis of the EEG data
+├── 4_ISC_Behav.ipynb      # intersubject similarity analysis of the sociability (mentalizing & empathy)
+├── 5_ISRSA.ipynb          # intersubject representational similarity analysis 
+├── 6_plots_stats.ipynb    # plot the topographys of ISC & IS-RSA   
 ├── LICENSE
 └── README.md
 ```
