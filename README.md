@@ -1,8 +1,10 @@
-# Negative_Emotion_Neurophysio_IS-RSA
+# Negative_Emotion_Neurophysio_IS-RSA <img src="https://raw.githubusercontent.com/andlab-um/Emotion_Neurophysio_IS-RSA/main/demo.png" align="right" width="561px">
 
 [![GitHub repo size](https://img.shields.io/github/languages/code-size/andlab-um/Emotion_Neurophysio_IS-RSA?color=brightgreen&label=repo%20size&logo=github)](https://github.com/andlab-um/Emotion_Neurophysio_IS-RSA)
 [![Twitter URL](https://img.shields.io/twitter/url?label=%40ANDlab3&style=social&url=https%3A%2F%2Ftwitter.com%2Flizhn7)](https://twitter.com/ANDlab3)
 [![Twitter URL](https://img.shields.io/twitter/url?label=%40ruien_wang&style=social&url=https%3A%2F%2Ftwitter.com%2Flizhn7)](https://twitter.com/ruien_wang)
+
+> From [Affective, Neuroscience, and Decision-making Lab](https://andlab-um.com)
 
 ## Highlights
 * We combined virtual reality & simultaneous EEG-ECG recording to probe the neurophysiological responses of nehative emotions
@@ -32,6 +34,7 @@
 Python
 
 ```bash
+python 3.8
 mne
 neurokit2
 pandas
