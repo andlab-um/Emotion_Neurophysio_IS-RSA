@@ -22,14 +22,7 @@
 * VR googles: VIVE Pro EYE (HTC)
 * Main analysis method: Intersubject similarity analysis (ISC) & Intersubject representational similarity analysis (IS-RSA)
 
-## Structure 
-* 1_Emotion_Rating: visualization of the perceived emotion arousal rating score
-* 2_ISC_EEG: intersubejct simialrity analysis of the EEG data
-* 3_ISC_ECG: intersubject similarity analysis of the ECG signal
-* 4_ISC_Behav: intersubject similarity analysis of the sociability (mentalizing & empathy)
-* 5_ISRSA: intersubject representational similarity analysis 
-* 6_plots_stats: plot the topographys of ISC & IS-RSA
-* Unity_call_python: scripts for using Unity platform call python codes
+## Structure
 
 ```bash
 ├── Unity_call_python
