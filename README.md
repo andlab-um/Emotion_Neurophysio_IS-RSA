@@ -55,3 +55,18 @@ matplotlib
 seaborn
 
 ```
+## References
+
+Wang, R., Yu, R., Tian, Y., & Wu, H. (2022). Individual variation in the neurophysiological representation of negative emotions in virtual reality is shaped by sociability. *NeuroImage*, 263, 119596. https://doi.org/10.1016/j.neuroimage.2022.119596
+
+```
+@article{wang2022individual,
+  title={Individual variation in the neurophysiological representation of negative emotions in virtual reality is shaped by sociability},
+  author={Wang, Ruien and Yu, Runquan and Tian, Yan and Wu, Haiyan},
+  journal={NeuroImage},
+  volume={263},
+  pages={119596},
+  year={2022},
+  publisher={Elsevier}
+}
+```
